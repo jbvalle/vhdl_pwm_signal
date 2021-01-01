@@ -1,23 +1,12 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Engineer: John Bryan Valle
 -- 
 -- Create Date: 01.01.2021 17:08:35
 -- Design Name: 
 -- Module Name: pwm - Verhalten
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
 -- Description: 
 -- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
 ----------------------------------------------------------------------------------
-
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -50,23 +39,6 @@ count:  process(clk) --counting
                         counter <= counter + 1;
                     else
                         counter <= (others => '0');
-                    end if;
-                end if;
-            end process;
-            
-fading: process(clk) --counting
-            begin
-                if(rising_edge(clk)) then
-                    if((duty_cycle < (max_val-1)) and (state = '1')) then
-                        duty_cycle <= duty_cycle + 1;
-                        state <= '1';
-                    else
-                        state <= '0';
-                        duty_cycle <= duty_cycle - 1;
-                        
-                        if(duty_cycle < 0) then
-                            state <= '1';
-                        end if;
                     end if;
                 end if;
             end process;
