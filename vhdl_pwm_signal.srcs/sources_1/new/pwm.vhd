@@ -20,13 +20,13 @@ entity pwm is
 	);
 	port(
 		clk: in std_logic;
-		duty_cycle: in std_logic_vector((val_bits -1) downto 0);
 		pulse: out std_logic
 	);
 end pwm;
 
 architecture Verhalten of pwm is
 	signal cnt: std_logic_vector((val_bits -1) downto 0);
+	signal duty_cycle: std_logic_vector((val_bits -1) downto 0);
 begin
     
     process(clk) -- Counting
@@ -50,4 +50,5 @@ begin
             end if;
         end if;
     end process;
+    
 end Verhalten;
