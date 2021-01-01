@@ -141,3 +141,6 @@ vhdl_pwm_signal.sim/sim_1/behav/xsim/webtalk_7724.backup.log
 vhdl_pwm_signal.sim/sim_1/behav/xsim/xsim.dir/pwm_behav/xsimSettings.ini
 vhdl_pwm_signal.runs/synth_1/.Xil/Vivado-18252-NB83/.lpr
 vhdl_pwm_signal.runs/synth_1/.Xil/Vivado-18252-NB83/wt/project.wpc
+vhdl_pwm_signal.runs/synth_1/.Xil/Vivado-18252-NB83/realtime/dupFiles.rpt
+vhdl_pwm_signal.runs/synth_1/.Xil/Vivado-18252-NB83/realtime/pwm.tcl
+vhdl_pwm_signal.runs/synth_1/.Xil/Vivado-18252-NB83/elab.rtd
