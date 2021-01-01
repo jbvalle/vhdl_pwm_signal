@@ -269,27 +269,3 @@ set_property PACKAGE_PIN U16 [get_ports {pulse}]
 #set_property PACKAGE_PIN A18 [get_ports RsTx]						
 	#set_property IOSTANDARD LVCMOS33 [get_ports RsTx]
 
-
-##USB HID (PS/2)
-#set_property PACKAGE_PIN C17 [get_ports PS2Clk]						
-	#set_property IOSTANDARD LVCMOS33 [get_ports PS2Clk]
-	#set_property PULLUP true [get_ports PS2Clk]
-#set_property PACKAGE_PIN B17 [get_ports PS2Data]					
-	#set_property IOSTANDARD LVCMOS33 [get_ports PS2Data]	
-	#set_property PULLUP true [get_ports PS2Data]
-
-
-##Quad SPI Flash
-##Note that CCLK_0 cannot be placed in 7 series devices. You can access it using the
-##STARTUPE2 primitive.
-#set_property PACKAGE_PIN D18 [get_ports {QspiDB[0]}]				
-	#set_property IOSTANDARD LVCMOS33 [get_ports {QspiDB[0]}]
-#set_property PACKAGE_PIN D19 [get_ports {QspiDB[1]}]				
-	#set_property IOSTANDARD LVCMOS33 [get_ports {QspiDB[1]}]
-#set_property PACKAGE_PIN G18 [get_ports {QspiDB[2]}]				
-	#set_property IOSTANDARD LVCMOS33 [get_ports {QspiDB[2]}]
-#set_property PACKAGE_PIN F18 [get_ports {QspiDB[3]}]				
-	#set_property IOSTANDARD LVCMOS33 [get_ports {QspiDB[3]}]
-#set_property PACKAGE_PIN K19 [get_ports QspiCSn]					
-	#set_property IOSTANDARD LVCMOS33 [get_ports QspiCSn]
-
