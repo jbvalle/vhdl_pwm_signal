@@ -134,3 +134,10 @@ vhdl_pwm_signal.sim/sim_1/behav/xsim/xsim.ini
 vhdl_pwm_signal.sim/sim_1/behav/xsim/xvhdl.log
 vhdl_pwm_signal.sim/sim_1/behav/xsim/xvhdl.pb
 vhdl_pwm_signal.xpr
+vhdl_pwm_signal.runs/.jobs/vrs_config_3.xml
+vhdl_pwm_signal.runs/.jobs/vrs_config_4.xml
+vhdl_pwm_signal.sim/sim_1/behav/xsim/webtalk_7724.backup.jou
+vhdl_pwm_signal.sim/sim_1/behav/xsim/webtalk_7724.backup.log
+vhdl_pwm_signal.sim/sim_1/behav/xsim/xsim.dir/pwm_behav/xsimSettings.ini
+vhdl_pwm_signal.runs/synth_1/.Xil/Vivado-18252-NB83/.lpr
+vhdl_pwm_signal.runs/synth_1/.Xil/Vivado-18252-NB83/wt/project.wpc
